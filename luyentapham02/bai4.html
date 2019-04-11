@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function kiemtraso(a) {
+        if(a>='a'&&a<='z' || a>='A'&&a<='Z')
+        {
+            return true;
+        }else {
+            return false;
+        }
+    }
+    let a=prompt("nhap vao ky tu");
+    if (kiemtraso(a))
+    {
+        alert("ky tu nhap vao la ky tu chu");
+    }
+    else {
+        alert("ky tu nhap vao la 1 ky tu so");
+    }
+</script>
+</body>
+</html>

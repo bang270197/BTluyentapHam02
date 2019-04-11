@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function dientich(r) {
+        let r1=parseInt(r);
+        const PI=3.14
+        let kq=r*r*PI;
+        return kq;
+    }
+    function chuvi(r) {
+        let r1=parseFloat(r);
+        let kq=r*2*3.14;
+        return kq;
+    }
+    let r=prompt("Nhap vao ban kinh hinh tron");
+
+    //let kq2=chuvi(r);
+   document.write("Dien tich hinh tron la"+ dientich(r)+"</br>");
+    document.write("Dien tich hinh tron la"+ chuvi(r));
+</script>
+</body>
+</html>

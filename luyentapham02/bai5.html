@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let sothunhat=parseInt(prompt("Nhap vao so thu nhat"));
+    let sothuhai=parseInt(prompt("Nhap vao so thu hai"));
+    let sothuba=parseInt(prompt("Nhap vao so thu ba"));
+    function sonhohon(sothunhat,sothuhai,sothuba) {
+        if (sothunhat<sothuhai)
+        {
+            if (sothunhat<sothuba)
+            {
+                alert("so nho nhat la"+sothunhat);
+            }else {
+                alert("so nho nhat la "+sothuba);
+            }
+        }else if(sothuhai<sothuba)
+        {
+            alert("so nho nhat la"+sothuhai);
+        }else {
+            alert("so nho nhat la "+sothuba);
+        }
+    }
+    sonhohon(sothunhat,sothuhai,sothuba);
+</script>
+</body>
+</html>
